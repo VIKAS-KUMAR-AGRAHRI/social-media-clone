@@ -3,64 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MtF(Meet to Friend)</title>
+    <title>MtB(Meet to Best)</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
     <style>
-        
+       .white{
+        color: aliceblue;
+       }
+       .read-more{
+        color: orange;
+       }
     </style>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="imagset">
+    <img src="baner2.jpg" alt="">
     <div id="main">
-        <div class="header">
-            <div class="left item">
-                <div class="logo">MtF</div>
-            </div>
-            <div class="center item">
-                <div id="form">
-                    <form action="" >
-                        <input type="text" class="input" name="search" placeholder="Search..">
-                        
-                    </form>
-                </div>
-                
-            </div>
-            <div class="right item">three</div>
+      <div class="header">
+        <a href="#default" class="logo">MeetToBest</a>
+        <div class="header-right">
+          <a class="active" href="#home">Home</a>
+          <a href="#contact">Service</a>
+          <a href="#about">Domain</a>
+           <a href="#about">Career</a>
+           <a href="#about">Contact</a>
+           <a href="#about">About Us</a>
         </div>
+      </div>
         <!-- scroll content code here............................ -->
         <div id="scrolable-content">
-          <div id="banner"><img src="crousel.jfif" alt=""></div>
+          <div id="banner"><img src="banner3.png" alt=""></div>
           <div id="site-description">
             <div id="" style="width: 40%; border: 2px solid yellow; margin: auto;padding: 10px;">
             <div id="circle">
               <img src="shakehand.png" alt="">
             </div>
-            <div id="description">MtF is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 50 years.</div>
+            <div id="description">MtB is an IT services, consulting and business solutions organization that has been partnering with many of the world’s largest businesses in their transformation journeys for over 50 years.</div>
             <div id="learn-more">
-              <button>Read More</button>
+              <button style="padding: 5px;border-radius: 15px;">Read More</button>
             </div>
           </div>
           </div>
           <div class="services" >
             <div id="type-of-services"  class="">
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
-                <div class="card-style">one</div>
+                  <div class="card-style">
+                    
+                    
+                    <div class="newcard">
+                      <div class="left">
+                        <img src="icon/erp.png" alt="">
+                      </div>
+                      <div class="right">
+                        <div class="heading">ERP Development</div>
+                        <div class="white">ERP is one of the company’s most focused services as we have always aimed for IT revolution. <b class="read-more">Read More</b></div>
+                      </div>  
+                  </div>
+                  </div>
+                  <div class="card-style">
+                  
+                  <div class="newcard">
+                    <div class="left">
+                      <img src="icon/erp.png" alt="">
+                    </div>
+                    <div class="right">
+                      <div class="heading">Web App Development</div>
+                      <div class="white" >The companies/businesses dealing with online businesses need customized web applications to help keep. <b class="read-more">Read More</b></div>
+                    </div>  
+                </div>
+                  
+                </div>
+                <div class="card-style">
+                  
+                      <div class="newcard">
+                          <div class="left">
+                            <img src="icon/erp.png" alt="">
+                          </div>
+                          <div class="right">
+                            <div class="heading">Software Development</div>
+                            <div class="white" >Since past decade, Softpro has been proving to be a big name in the field of Software Development. <b class="read-more">Read More</b></div>
+                          </div>  
+                      </div>
+    
+                  
+                </div>
+                <div class="card-style">
+                  
+                  
+                  <div class="newcard">
+                    <div class="left">
+                      <img src="icon/erp.png" alt="">
+                    </div>
+                    <div class="right">
+                      <div class="heading">Mobile App Development</div>
+                      <div class="white" >Android as a technology is one of the most widely used in today's era of smartphones. Majority of the smartphone. <b class="read-more">Read More</b></div>
+                    </div>  
+                </div>
+                </div>
+                <div class="card-style">
+                  
+                  
+                  <div class="newcard">
+                    <div class="left">
+                      <img src="icon/erp.png" alt="">
+                    </div>
+                    <div class="right">
+                      <div class="heading">Research & Designing</div>
+                      <div class="white" >Since the field of Information Technology is ever evolving, it is very important for us to efficiently. <b class="read-more">Read More</b></div>
+                    </div>  
+                </div>
+                </div>
+                <div class="card-style">
+                  
+                  
+                  <div class="newcard">
+                    <div class="left">
+                      <img src="icon/erp.png" alt="">
+                    </div>
+                    <div class="right">
+                      <div class="heading">Web Designing</div>
+                      <div class="white">Softpro works hard to make technology work for its clients by providing quality custom web designing <b class="read-more">Read More</b></div>
+                    </div>  
+                </div>
+                </div>
+                
             </div>
            
           </div>
-          <div class="services">one</div>
-          <div class="services">one</div>
-          <div class="services">one</div>
-          <div class="services">one</div>
+  <div class="services" id="technology">
+            <div class="tech"><h1>Our Technology</h1></div>
+            <div class="tech-heading"></div>
+            
+            <div class="item1">
+                            <img src="java.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="php.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="python1.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="plc.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="msolid.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="mansys.jpg" alt="">
+            </div>
+            <div class="item1">
+                            <img src="eiot.jpg" alt="">
+            </div>
+            <div class="item1">
+                            <img src="eembed.png" alt="">
+            </div>
+            <div class="item1">
+                            <img src="cstand.png" alt="">
+            </div>
+</div>
+          <div class="services">
+            <div class="feature">
+                  <div style="text-align: center;"><h1>Facts & Figures</h1></div>
+                  <div class="feature-text read-more">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae aperiam architecto deserunt voluptates libero distinctio recusandae quas inventore, nam ipsum maxime doloremque eligendi et fuga nostrum sit quam odit ipsa.</div>
+                  <div id="clients">
+                    <div class="fact1">
+                      <div class="number white">274</div>
+                      <div class="number-1 read-more">Clients</div>
+                    </div>
+                    <div class="fact1">
+                      <div class="number white">274</div>
+                      <div class="number-1 read-more">Projects</div>
+                    </div>
+                    <div class="fact1">
+                      <div class="number white">274</div>
+                      <div class="number-1 read-more">Hours of Support</div></div>
+                    <div class="fact1">
+                      <div class="number white">274</div>
+                      <div class="number-1 read-more">Hard Workers</div>
+                    </div>
+                  </div>
+          </div>
+          </div>
+          <div class="services">
+            <div style="width: 80%;margin: auto; text-align: center;">Director Message</div>
+            <div id="director">
+              <div class="director1">
+                <div class="card">
+                  <img src="director-pic.jpg" alt="Avatar" style="width:100%">
+                  <div class="container">
+                    <h4><b>John Doe</b></h4> 
+                    <p>Architect & Engineer</p> 
+                  </div>
+                </div>
+
+              </div>
+              <div class="director1">
+                Today, MtB stands at the pinnacle of success, prosperity and jubilance on account of its diverse strengths and opportunities being tapped from a wide horizon of activities and ventures. We have a very sound and large empowered customers having clear cut vision and commitment for growth and development. Softpro India offers customized and flexible IT solutions, with the costs that are affordable for international standards, without any reduction or loss in quality, technology and/or scalability of the client. We treat our clients with courtesy, friendliness and intelligence. I personally feel that this could only be achieved through a very strong bonding between our employees and customers Vis-à-vis with the management working in tandem with them to fulfil their wishes and expectations from all corners. In fact we have entered in different domain of business to diversify our major thrust area of activities like Education, Training & Research. The focus of success in all business ventures resolves around the basic concept of “ACHIEVE BIG” and having positivity of mind in order to achieve the desired results with full commitment and dedication to realize the cherished dream of thousands of people from all the sections of our society and providing solace to our people.
+                <div style="text-align: right;"><b class="read-more">Read More</b></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="services">
+            <footer id="footer">
+              <div class="footer-top">
+                <div class="container">
+                  <div class="row">
+          
+                    <div class="col-lg-3 col-md-6 footer-info">
+                      <h3>Meet to Best</h3>
+                      <p>Meet to Best of Companies is a cluster of companies working in multiple domains like Software Development, IT Trainings, Research and Designing.Our goal is to become a world-class company with long term success..</p>
+                    </div>
+          
+                    <div class="col-lg-3 col-md-6 footer-links">
+                      <h4>Useful Links</h4>
+                      <ul>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Home</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">About Us</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Portfolio</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Career</a></li>
+                        <li><i class="ion-ios-arrow-right"></i> <a href="#">Contact</a></li>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#">Certificate Varification</a></li>
+                      </ul>
+                    </div>
+          
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                      <h4>Contact Us</h4>
+                      <p>
+                        Meet to Best Tower <br>
+                        Near New Delhi<br>
+                        Okhala phase 1, Gobindpuri -126006<br>
+                        Lucknow (UP) <br>
+                        <strong>Call us @ </strong> + 91 723789694<br>
+                        <strong>Email </strong> hr@meettobest.in<br>
+                      </p>
+          
+                      <div class="social-links">
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                      </div>
+          
+                    </div>
+          
+                    <div class="col-lg-3 col-md-6 footer-newsletter">
+                      <h4>Downloads</h4>
+                <h4><a href="#" target="_blank">Company Profile</a></h4>
+                      <h4><a href="#">Volume I (Edition Nov-2017)</a></h4>
+                      <h4><a href="#" target="_blank">Volume II (Edition June-2018)</a></h4>
+                      <h4><a href="#" target="_blank">Volume III (Edition June-2020)</a></h4>
+                    </div>
+          
+                  </div>
+                </div>
+              </div>
+          
+              <div class="container">
+                <div class="copyright">
+                  © Copyright <strong>Meet to Best of Companies</strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                  
+                  Designed by <a href="https://softproindia.in">Meet to Best Computer Technologies (P) Ltd.</a>
+                </div>
+              </div>
+            </footer>
+            
+          </div>
 
         </div>
         <!-- scroll content end here................................... -->
     </div>
+  </div>
 </body>
 </html>
